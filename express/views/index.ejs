@@ -7,5 +7,10 @@
 </head>
 <body>
     <h1><%= message %></h1>
+    <% if (message === 'Hello World!') { %>
+        <p>Message is Hello World!</p>
+    <% } else { %>
+        <p>Message is not Hello World!</p>
+    <% } %>
 </body>
 </html>
